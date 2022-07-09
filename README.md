@@ -6,7 +6,6 @@ To inference the model, download weights from: https://dl.dropbox.com/s/2m0c4o22
 Then run: <br>
 <code>allennlp evaluate --include-package rucoref RucocoAncor_rubertb_a150_s20_sw04.tar.gz data\test.conll --output-file metrics_on_test.json --predictions-output-file predictions.json</code><br><br>
 In order to train the model from scratch, use the command:<br>
-<code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br><br>
-<hr>
+<code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br>
 <h1>Training process</h1>
 ![alt text](https://github.com/gleb-skobinsky/RuCo-BERT/blob/master/training.jpg?raw=true)
