@@ -9,11 +9,11 @@ In order to train the model from scratch, use the command:<br>
 <code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br>
 <h1>Results</h1>
 Results are calculated by default allennlp functions and tend to be slightly lower than the AVG scores computed with reference coreference scores.<br>
-| Set          | PRECISION | RECALL    | F1-SCORE |
+| Set           | PRECISION | RECALL    | F1-SCORE|
 |---------------|-----------|-----------|---------|
-| train             | 96.1      | 89.3      | 92.5    |
-|development              | 77.8      | 72.8      | 75.2    |
-|test              | 81.1      | 78.2      | 79.6    |
+| train         | 96.1      | 89.3      | 92.5    |
+|development    | 77.8      | 72.8      | 75.2    |
+|test           | 81.1      | 78.2      | 79.6    |
 <h1>Training process</h1>
 Development F1 never exceeds the threshold of around 75%, even though training F1 increases steadily.
 
