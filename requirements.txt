@@ -1,0 +1,4 @@
+allennlp==2.2.0
+allennlp-models==2.2.0
+pytorch-transformers==1.1.0
+transformers==4.4.2

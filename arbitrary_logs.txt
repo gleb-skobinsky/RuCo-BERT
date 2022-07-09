@@ -1,0 +1,18 @@
+coref_precision: 0.6201, coref_recall: 0.3078, coref_f1: 0.4099, mention_recall: 0.8672, batch_loss: 19.9590, loss: 77.0477 ||: 100%|##########| 2851/2851 [04:38<00:00, 10.23it/s]
+2022-07-08 11:08:58,332 - INFO - allennlp.training.trainer - Validating
+coref_precision: 0.6376, coref_recall: 0.5675, coref_f1: 0.6005, mention_recall: 0.9485, batch_loss: 3.7939, loss: 60.7953 ||: 100%|##########| 397/397 [00:19<00:00, 20.88it/s]
+2022-07-08 11:09:18,378 - INFO - allennlp.training.checkpointer - Best validation performance so far. Copying weights to 'resulting_models/best.th'.
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - coref_f1           |     0.410  |     0.600
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - coref_precision    |     0.620  |     0.638
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - coref_recall       |     0.308  |     0.567
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - gpu_0_memory_MB    |   363.924  |       N/A
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - loss               |    77.048  |    60.795
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - mention_recall     |     0.867  |     0.948
+2022-07-08 11:09:18,544 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |  8330.988  |       N/A
+2022-07-08 11:09:18,544 - INFO - allennlp.training.trainer - Epoch duration: 0:04:59.508125
+2022-07-08 11:09:18,544 - INFO - allennlp.training.trainer - Estimated training time remaining: 12:23:46
+2022-07-08 11:09:18,545 - INFO - allennlp.training.trainer - Epoch 1/149
+2022-07-08 11:09:18,545 - INFO - allennlp.training.trainer - Worker 0 memory usage: 8.5G
+2022-07-08 11:09:18,545 - INFO - allennlp.training.trainer - GPU 0 memory usage: 30G
+2022-07-08 11:09:18,545 - INFO - allennlp.training.trainer - Training
