@@ -8,7 +8,7 @@ Then run: <br>
 In order to train the model from scratch, use the command:<br>
 <code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br>
 <h1>Results</h1>
-Results are calculated by default allennlp functions and tend to be slightly lower than the AVG scores computed with reference coreference scores.<br><br>
+Results are calculated by default allennlp functions and tend to be slightly lower than the AVG scores computed with reference coreference scores (https://github.com/conll/reference-coreference-scorers).<br><br>
 
 | Set           | PRECISION | RECALL    | F1-SCORE|
 |---------------|-----------|-----------|---------|
