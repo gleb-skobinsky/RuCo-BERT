@@ -1,6 +1,6 @@
 # RuCo-BERT
 
-This repository contains code and data for training and inference of a new coreference resolution model trained on the RuCoCo corpus (see https://github.com/vdobrovolskii/rucoco). <br>
+This repository contains code and data for training and inference of a new coreference resolution model trained on the RuCoCo corpus (see https://github.com/vdobrovolskii/rucoco). <br><br>
 First, to install dependcies run <code>pip install -r requirements.txt</code>. Although the recommended pytorch version for AllenNLP 2.2.0 is 1.8.1, it is better to additionally run <code>pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html</code>. This will ensure support of 48 anf 80 GB GPUs that is necessary for training with the command below. Coreference resolution is notorious for its extreme computational complexity.<br><br>
 To inference the model, download weights from: https://dl.dropbox.com/s/2m0c4o220pr1rfn/RucocoAncor_rubertb_a150_s20_sw04.tar.gz?dl=0 <br><br>
 Then run: <br>
