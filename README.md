@@ -8,4 +8,5 @@ Then run: <br>
 In order to train the model from scratch, use the command:<br>
 <code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br>
 <h1>Training process</h1>
+Development F1 never exceeds the threshold of around 75%, even though training F1 increases steadily.
 ![alt text](https://github.com/gleb-skobinsky/RuCo-BERT/blob/master/training.jpg?raw=true)
