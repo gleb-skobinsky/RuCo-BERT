@@ -8,5 +8,5 @@ Then run: <br>
 In order to train the model from scratch, use the command:<br>
 <code>allennlp train --include-package rucoref coref_bertbase_lstm.jsonnet -s output_models</code>.<br><br>
 <hr>
-# Training process 
-![alt text](https://github.com/gleb-skobinsky/RuCo-BERT/blob/master/training.png?raw=true)
+# Training process <br>
+![alt text](https://github.com/gleb-skobinsky/RuCo-BERT/blob/master/training.png)
